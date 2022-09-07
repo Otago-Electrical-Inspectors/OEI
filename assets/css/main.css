@@ -2339,7 +2339,11 @@ input, select, textarea {
 		border-bottom: none;
 		position: relative;
 		color: #fff;
+	}
+	
+	.icon.upScale {
 		font-size: 3em;
+
 	}
 
 		.icon:before {
