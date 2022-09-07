@@ -389,11 +389,15 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 					</section>
 
 				<!-- Copyright -->
-					<div class="copyright">© 2022 Otago Electrical Inspectors. All rights reserved.</div>
+					<div class="copyright">© <span id="date"></span> Otago Electrical Inspectors. All rights reserved.</div>
 
 			</div>
 
 		<!-- Scripts -->
+		<script>
+				var d = new Date();
+				document.getElementById("date").innerHTML = d.getFullYear();
+				</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
