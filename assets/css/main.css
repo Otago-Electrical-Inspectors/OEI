@@ -3932,3 +3932,24 @@ input, select, textarea {
 		background-color: #fff;
 		
 	}
+
+	.logo {
+		margin: 0;
+		padding: 0;
+		padding: 5vh;
+		z-index: 3;
+		position: fixed;
+	}
+
+	.logo img {
+		width: 10vh;
+		height: 10vh;
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.logo {
+			display: none;
+		}
+
+	}
