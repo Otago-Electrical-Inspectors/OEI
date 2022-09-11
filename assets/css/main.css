@@ -3374,7 +3374,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section.intro > header {
-					top: 0;
+					padding-top: 4rem;
 					width: 100%;
 				}
 
@@ -3421,6 +3421,7 @@ input, select, textarea {
 
 		#wrapper section {
 			margin: 0 0 0 0;
+			padding-bottom: 7.5rem;
 		}
 
 			#wrapper section > header {
